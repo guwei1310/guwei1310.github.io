@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://fangke-ypc-edu-cn-kx1ol.github.io/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	绍兴文理学院元培学院访客通行码
+</title><link rel="stylesheet" href="./绍兴文理学院元培学院访客通行码2_files/new_file.css">
+    <script src="./绍兴文理学院元培学院访客通行码2_files/jquery-1.11.1.min.js.下载" type="text/javascript"></script>
+    <script type="text/javascript">      
+        var jkmzt = 1;
+        var SFZHM = "330402200305061515";
+        var yy = 0;
+        var yyjl = 1;
+        var XM = "";
+        var hsjcjg =1;
+        var ymjz =0;
+        var jzcs = "";
+        $(window).load(function () {
+            if (yy == 0) { 
+                document.getElementById("sfkyjx").innerText = "在预约时间段内，可以进校";
+            }
+            if (yyjl == 0) {               
+                document.getElementById("sfkyjx").innerText = "当前时间不在预约时间段内，暂不可进校";
+            } else {
+                if (jkmzt == 1) {
+                } else {
+                    document.getElementById("sfkyjx").innerText = "您的浙江健康码不为绿码，暂不可进校";
+                }
+                if (hsjcjg == 1) {
+                    document.getElementById("sfkyjx1").innerText = "您的核酸结果为阴性，可进校";
+                } else {
+                    document.getElementById("sfkyjx1").innerText = "无核酸检测结果";
+                }
+         
+            }        
+
+        });
+$(function () {
+    // 当文档就绪时执行的代码
+
+    // 获取当前日期
+    var date = new Date();
+    
+    // 最初调用getDate函数
+    updateDates();
+
+    // 使用setInterval每秒更新一次日期，调用updateDates函数
+    setInterval(updateDates, 1000);
+});
+
+function updateDates() {
+    // 获取当前日期
+    var date = new Date();
+
+    // 更新具有id“times”的div中的时间
+    updateFormattedTime(date);
+
+    // 在特定格式中显示当前月份和日期
+    $("#yr").text(date.getMonth() + 1 + "月" + date.getDate() + "日");
+
+    // 显示完整日期格式
+    $("#fullDate").text(getFormattedFullDate(date));
+    $("#fullDatee").text(getFormattedFullDatee(date));
+	
+}
+
+function updateFormattedTime(date) {
+    // 格式化时间组件
+    var hour = (date.getHours() < 10 ? "0" : "") + date.getHours();
+    var minute = (date.getMinutes() < 10 ? "0" : "") + date.getMinutes();
+    var second = (date.getSeconds() < 10 ? "0" : "") + date.getSeconds();
+    var formattedTime = hour + ":" + minute + ":" + second;
+
+    // 获取具有id“times”的div
+    var div1 = document.getElementById("times");
+
+    // 清空div的内容
+    $("#times").empty();
+
+    // 将格式化后的时间写入div
+    div1.innerHTML = formattedTime;
+}
+
+function getFormattedFullDate(date) {
+    // 格式化完整日期
+    var year = date.getFullYear();
+    var month = (date.getMonth() < 9 ? "0" : "") + (date.getMonth() + 1);
+    var day = (date.getDate() < 10 ? "0" : "") + date.getDate();
+    return year + "-" + month + "-" + day + " 12:00";
+}
+function getFormattedFullDatee(date) {
+    // 格式化完整日期
+    var year = date.getFullYear();
+    var month = (date.getMonth() < 9 ? "0" : "") + (date.getMonth() + 1);
+    var day = (date.getDate() < 10 ? "0" : "") + date.getDate();
+    return year + "-" + month + "-" + day + " 22:00";
+}
+	    
+
+    </script>
+<style type="text/css">#_copy{align-items:center;background:#4494d5;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:13px;height:30px;justify-content:center;position:absolute;width:60px;z-index:1000}#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}.enable_copy_btns_div{position:fixed;width:154px;left:10px;top:45%;background:#e7f1ff;border:2px solid #4595d5;font-weight:600;border-radius:2px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;z-index:5000}.enable_copy_btns_logo{width:100%;background:#4595d5;text-align:center;font-size:12px;color:#e7f1ff;line-height:30px;height:30px}.enable_copy_btns_btn{display:block;width:128px;height:28px;background:#7f5711;border-radius:4px;color:#fff;font-size:12px;border:0;outline:0;margin:8px auto;font-weight:700;cursor:pointer;opacity:.9}.enable_copy_btns_btn:hover{opacity:.8}.enable_copy_btns_btn:active{opacity:1}</style></head>
+<body inmaintabuse="1">
+    <div class="max">
+        <span id="GUID" style="display: none"></span>
+        <div class="max-sk" style="background-image: url(./fg03.jpg);width:90%;margin-top:-20px;border-radius:20px;background-size: 100% 100%;height:780px;">
+            <div class="ewm1">
+                <img id="viewConttainer2" style="width: 300px;" src="./绍兴文理学院元培学院访客通行码2_files/schoolname.png"><br>
+                <span class="max-span">访客通行码</span>
+            </div>
+                     <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;display: inline-block;margin-top: -45px;">
+                 <span class="max-bfxx">身份证：<b style="font-weight: 200;">330282200308244035</b></span>   
+            </div>
+            <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;">
+                 <span class="max-bfxx">姓名：<b style="font-weight: 200;">顾威</b></span>   
+            </div>
+             <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
+                 <span class="max-bfxx">校内联系人：<b style="font-weight: 200;">俞淑燕</b></span>              
+            </div>
+            <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
+                 <span class="max-bfxx">被访部门：<b style="font-weight: 200;">信息与机电工程分院</b></span>              
+            </div>
+          
+             <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
+                 <span class="max-bfxx">开始时间：<b style="font-weight: 200;" id="fullDate">2025-06-12 12:00</b></span>              
+            </div>
+              <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
+                 <span class="max-bfxx">结束时间：<b style="font-weight: 200;" id="fullDatee">2025-06-12 22:00</b></span>              
+            </div>
+                <div style="width:90%;height:85px;border-radius: 25px;margin-left: 40px;"> 
+                 <span class="max-bfxx">车牌号：<b style="font-weight: 200;"></b></span>              
+            </div>
+        </div>
+        <div class="max-sk-nz" style="top:800px;">
+        <span class="max-sk-nz-ztzs" style="margin-top: 40px;" id="yr">6月12日</span>
+        <span class="max-sk-nz-ztzs" style="margin-top: 80px;" id="times">20:44:15</span>
+            <div class="max-sk-nz-ewm">
+                <div class="ewm">
+                    <img id="viewConttainer1" style="width: 100%; height: 100%" src="./绍兴文理学院元培学院访客通行码2_files/err.png">
+                </div>
+            </div>
+            <span class="max-sk-nz-zts" style="margin-top: 10px;"><a class="max-sk-nz-zts-aa" style="text-decoration: none;">刷新</a></span>
+            <span class="max-sk-nz-ztz" style="margin-top: 10px; color:red;" id="sfkyjx">在预约时间段内，可以进校</span>
+            
+            
+        </div>
+
+    </div>
+
+
+<script src="chrome-extension://nhiheekdcnmfbapkmpbhmplfddenhjic/sm.bundle.js" data-pname="supercopy-v3" data-asset-path="https://spc3.s3.ap-east-1.amazonaws.com"></script>
+</body></html>
