@@ -1,0 +1,165 @@
+html {
+	background-color: #82c6e0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.max {
+	width: 100%;
+	height: auto;
+}
+
+.max-span {
+	width: 300%;
+	height: 160px;
+	font-size: 90px;
+	color: black;
+	/*line-height: 160px;*/
+	float: left;
+	text-align: center;
+	margin-left: 185px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.max-sk {
+	width: 100%;
+	height: 700px;
+	background-color: #FFFFFF;
+	/*float: left;*/
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.max-sk-nz {
+	width: 90%;
+	height: 990px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px 3px #888888;
+	position: absolute;
+	left: 5%;
+	top: 720px;
+	background-color: #ffffff;
+	opacity: 0.9;
+}
+
+.max-sk-nz-zt {
+	width: 100%;
+	height: 60px;
+	text-align: left;
+	color: #000000;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	text-indent: 20px;
+}
+.max-sk-nz-ewm {
+	width: 100%;
+	height: 380px;
+	float: left;
+	margin-top: 260px;
+}
+.ewm {
+	width: 550px;
+	height: 550px;
+	background-color: #82c6e0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -180px;
+}
+.ewm1 {
+	margin-top: 30px;
+	height: 135px;
+	width: 150px;
+	margin-left: 50px;
+}
+.max-sk-nz-zts {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: #000000;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	
+}
+.anniu{
+	width: 80%;
+	    height: 150px;
+	    background-color: #3E88D2;
+	    border-radius: 10px;
+	    float: left;
+	    margin-left: 10%;
+	    margin-top: 30%;
+		text-align: center;
+		line-height: 80px;
+		color: #FFFFFF;
+		font-size: 50px;
+}
+.max-sk-nz-ztz {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: #000000;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	text-indent: 20px;
+}
+.head {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: #ff0000;
+	float: left;
+	font-size: 70px;
+	margin-top: 30%;
+}
+.max-sk-nz-zts-aa {
+	color:#0094ff;
+}
+.headss {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	color: #ff0000;
+	float: left;
+	font-size: 70px;
+	margin-top: 3%;
+}
+.max-bfxx {
+	height: 70px;
+	text-align: left;
+	color: #000000;
+	float: left;
+	font-size: 40px;
+	line-height: 70px;
+	text-indent: 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: white !important;
+	border-radius: 10px;
+	margin-top: 5px;
+	padding-right: 25px;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+.max-sk-nz-ztzs {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	color: #000000;
+	float: left;
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 80px;
+	text-indent: 20px;
+}
